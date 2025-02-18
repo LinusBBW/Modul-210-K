@@ -27,7 +27,7 @@ spec:
     type: Git
     git:
       uri: "https://github.com/LinusBBW/Modul-210-K.git"
-    contextDir: /auftrag6.2/Web
+    contextDir: /Auftrag6.2/Web
     sourceSecret:
       name: html-openshift-app-github
  
