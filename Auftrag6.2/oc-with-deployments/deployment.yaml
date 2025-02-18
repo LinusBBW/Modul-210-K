@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: html-openshift-app
-        image: ghcr.io/linusbbw/html-openshift-app:v1
+        image: image-registry.openshift-image-registry.svc:5000/applicationAhtml-openshift-app/html-openshift-app:latest
         imagePullPolicy: Always  # OpenShift lädt immer die neueste Version
         ports:
         - containerPort: 8080  # Der Container läuft auf Port 8080
